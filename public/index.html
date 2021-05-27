@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formularios para MongoDB</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-5 main">
+                    <form action="/registrar" method="POST">
+                            <h2>Completa el formulario</h2>
+                            <input type="text" name = "fnombre" placeholder="ejemplo tu nombre" required>
+                            <input type="text"  name = "fredes" placeholder="Cuales son tus redes sociales" required>
+                            <input type="date"  required>
+                            <br>
+                            <label for="carreras" id="lcarreras">Carreras Ofertadas</label>
+                            <select name="carrera"  required>
+                               <!-- <option value="One" selected>-- Elige una carrera --</option>-->
+                                <option value="One"></option>
+                                <option value="Sist">Ingenieria en Sistemas Computacionales</option>
+                                <option value="Tics">Ingenieria en Tecnologias de la Informacion y Comunicacion</option>
+                                <option value="Elec">Ingenieria en Electronica</option>
+                                <option value="Anim">Ingenieria en Animacion y Efectos Audivisuales</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <input type="Submit" value="Grabar">
+                        </form>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
